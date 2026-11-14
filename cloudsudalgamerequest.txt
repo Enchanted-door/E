@@ -1,0 +1,50 @@
+fetch("https://znnhihydaqoqdsulckqj.supabase.co/rest/v1/rpc/math4_harbor_submit", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "Referer": "https://cloud.sudalgames.com/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "apikey": "sb_publishable_mcI5DGG23KwP-RNP-EWazw_UgdIeeHy",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Brave\";v=\"157\", \"Chromium\";v=\"157\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "ko-KR,ko;q=0.6",
+    "content-length": "511",
+    "content-type": "application/json",
+    "origin": "https://cloud.sudalgames.com",
+    "priority": "u=1, i",
+    "referer": "https://cloud.sudalgames.com/",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+  },
+  body: "{\"p_payload\":{\"run_id\":\"fb5074e1-5f51-4750-b895-5df3e62377a5\",\"name\":\"null\",\"school_name\":\"센텀초등학교\",\"grade\":6,\"class_number\":3,\"ship\":\"water\",\"score\":798420,\"stage\":5,\"cleared\":true,\"questions\":77,\"correct_answers\":75,\"elapsed\":742,\"topic_version\":1,\"topics\":[{\"topic\":\"간단한 자연수의 비\",\"n\":25,\"wrong\":1},{\"topic\":\"비례식의 활용\",\"n\":8,\"wrong\":1},{\"topic\":\"비례배분\",\"n\":22,\"wrong\":0},{\"topic\":\"비례식의 성질\",\"n\":11,\"wrong\":0},{\"topic\":\"비의 성질\",\"n\":11,\"wrong\":0}]}}"
+});
+
+fetch("https://znnhihydaqoqdsulckqj.supabase.co/rest/v1/rpc/math4_harbor_submit", {
+  method: "OPTIONS",
+  headers: {
+    "Accept": "*/*",
+    "Access-Control-Request-Headers": "apikey,content-type",
+    "Access-Control-Request-Method": "POST",
+    "Origin": "https://cloud.sudalgames.com",
+    "Sec-Fetch-Mode": "cors",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    "access-control-request-headers": "apikey,content-type",
+    "access-control-request-method": "POST",
+    "origin": "https://cloud.sudalgames.com",
+    "priority": "u=1, i",
+    "referer": "https://cloud.sudalgames.com/",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+  },
+});
